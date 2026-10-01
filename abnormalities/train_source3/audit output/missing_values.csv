@@ -1,0 +1,10 @@
+column_name,empty_string_count,whitespace_only_count,literal_null_count,total_missing,missing_percentage,predictive_implication
+entity_id,0,0,0,0,0.00%,Fully populated: no missingness signal
+business_name,0,0,0,0,0.00%,Fully populated: no missingness signal
+business_address,175916,0,0,175916,3.33%,High predictive feature: missingness requires dedicated name-only matching branch
+country,0,0,0,0,0.00%,Fully populated: no missingness signal
+
+--- MISSING ADDRESS BREAKDOWN BY COUNTRY ---,,,,,,
+country,total_records,missing_address_count,missing_address_percentage,,,
+US,3170056,110968,3.50%,,,
+India,2115547,64948,3.07%,,,

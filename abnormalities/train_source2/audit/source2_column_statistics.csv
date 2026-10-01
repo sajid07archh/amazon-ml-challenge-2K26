@@ -1,0 +1,5 @@
+column_name,dtype,non_null_count,null_count,null_percentage,unique_count,unique_percentage
+entity_id,string/categorical,5034616,0,0.0000%,5034616,100.00%
+business_name,string/text,5034616,0,0.0000%,"~4,620,000",~91.8%
+business_address,string/text,4865649,168967,3.3561%,"~4,810,000",~95.5%
+country,string/categorical,5034616,0,0.0000%,2,0.0000%

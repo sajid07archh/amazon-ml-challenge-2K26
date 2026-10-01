@@ -1,0 +1,8 @@
+anomaly_type,affected_column,occurrence_count,percentage,example_1,example_2,recommended_action
+Synthetic Domain Injection,business_name,210926,3.99%,wilfordhancock.com,Hmgreen.Com,"Strip domain extensions (.com, .org) and concatenate comparator"
+Prefix Junk Punctuation,business_name,114211,2.16%,#centraleducation,-- Maryl-Khalil Old Corp,Regex strip leading non-alphanumeric characters
+Legal Prefix Transposition,business_name,86415,1.63%,LLC Moncada Learning Center,Inc Pacific Association of Strnya,Strip legal prefixes or normalize position to suffix
+Embedded 'null' String,business_address,130996,2.48%,"45ND TERRACE, null, KANSAS CITY","G-1, null, Jaipur",Strip token 'null' from address string
+Multilingual Indic Script,business_name,258985,4.90%,"Devanagari, Tamil, Telugu, Kannada","Bengali, Gujarati",Apply Polyglot / Indic-translit library
+All Lowercase Formatting,business_name,330222,6.25%,sci ligue ici parents,shree enterprises,Universal lowercase folding
+ALL CAPS Formatting,business_name,156219,2.96%,MAURE WILLIAMS INC,PAYNE ENTERPRISES,Universal lowercase folding

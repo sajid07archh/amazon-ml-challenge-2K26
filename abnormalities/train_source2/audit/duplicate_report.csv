@@ -1,0 +1,4 @@
+duplicate_category,count,percentage,number_of_groups,largest_group_size,representative_example,assessment
+Duplicate Entity IDs,0,0.00%,0,1,None,All entity IDs are strictly unique primary keys
+Exact Duplicate Rows,0,0.00%,0,1,None,No 100% identical 4-tuple rows found
+Repeated Business Names,147984,~7.6%,"68,388",119,Urgent Care,Commercial entities frequently share brand names across multi-branch locations

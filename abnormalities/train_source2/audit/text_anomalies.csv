@@ -1,0 +1,8 @@
+anomaly_type,affected_column,occurrence_count,percentage,example_1,example_2,recommended_action
+ALL CAPS Formatting (S2 Extreme),business_name,951586,18.90%,PAYNE-ENRTPRMISES,MAURE WILLIAMS INC,Universal case-folding to lowercase
+ALL CAPS Address (S2 Extreme),business_address,3191104,63.38%,"105 ELM ST, MORGANTON, NC","KANSAS CITY, MO",Universal case-folding to lowercase
+Prefix Noise / Clutter (High S2 Density),business_name,108984,2.16%,-- Holloway Peak Inc,[EURL] QHC Culture,"Regex strip leading noise [EURL], --, <<, ##"
+Synthetic Domain Injection,business_name,201271,4.00%,hollowaypeak.com,jhfood.in,"Strip domain extensions (.com, .in) and compare stripped strings"
+Embedded 'null' String,business_address,131937,2.62%,"45ND TERRACE, null, KANSAS CITY","G-1, null, Jaipur",Strip token 'null' from address string
+Multilingual Indic Script,business_name,441391,8.77%,"Devanagari, Tamil, Telugu, Kannada","Bengali, Gujarati",Apply Polyglot / Indic-translit library
+Legal Prefix Transposition,business_name,85186,1.69%,LLC Moncada Learning Center,Pvt Ltd Ss Food,Strip legal prefixes or normalize position

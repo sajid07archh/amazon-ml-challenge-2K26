@@ -1,0 +1,7 @@
+abnormality,affects_blocking,affects_candidate_gen,affects_exact_match,affects_fuzzy_match,risk_false_pos,risk_false_neg,recommended_normalization,retention_guidance
+Missing Address,YES (Critical),YES (High),YES,YES,Low,CRITICAL (Drops 175k matches),Add missing_addr boolean flag; route to name-only comparator,RETAIN (Never delete)
+Domain / URL Name,YES (High),YES (High),YES,YES,Low,HIGH (Drops ~210k matches),Strip domain suffix (.com/.org) & compare space-stripped names,RETAIN (Never delete)
+Prefix Noise / Clutter,YES (High),YES (Medium),YES,NO (Levenshtein ok),Low,MEDIUM (Breaks prefix index),Regex strip leading non-alphanumeric chars,RETAIN (Never delete)
+Legal Prefix Transposition,YES (Medium),YES (Medium),YES,YES,HIGH (Matches random LLCs),MEDIUM,Normalize or strip legal keywords prior to core blocking,RETAIN (Never delete)
+Indic Multilingual Scripts,YES (Critical),YES (Critical),YES,YES,Low,CRITICAL (0.00 string overlap),Phonetic transliteration into Latin ASCII,RETAIN (Never delete)
+Address Component Reordering,NO (Token blocking ok),NO (BM25 ok),YES,YES (Levenshtein fails),Low,HIGH (If using sequence match),Use Token Sort Ratio / Set Jaccard instead of string distance,RETAIN (Never delete)

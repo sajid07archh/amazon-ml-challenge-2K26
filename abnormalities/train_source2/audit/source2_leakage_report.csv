@@ -1,0 +1,5 @@
+leakage_vector,risk_level,evidence_observed,remediation_recommendation
+Entity ID Sequentiality,Low,ID numbers are hash-distributed / non-consecutive,Do NOT use entity_id as a numerical feature
+Target Information in Features,None,"train_source2 contains only raw entity attributes (name, addr, country)","Ensure cross-source features use only pairwise similarities, not cluster IDs"
+Ground Truth Link Leakage,Medium (Design Risk),"Ground truth TSV links S1 to [S2, S3]",Perform GroupKFold splitting by S1 entity cluster so no S1 cluster spans train/val
+Source-Specific Style Leakage,Low,ALL CAPS and prefix styles appear in both train and test sources,Normalize casing universally across both train and test splits

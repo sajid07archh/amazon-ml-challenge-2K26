@@ -1,0 +1,7 @@
+abnormality,affects_blocking,affects_candidate_gen,affects_exact_match,affects_fuzzy_match,risk_false_pos,risk_false_neg,recommended_normalization,retention_guidance
+ALL CAPS Formatting (18.8%),YES (If case-sensitive),YES,YES,NO,Low,HIGH (Case-sensitive token match fails),Universal lowercase case-folding before tokenizing,RETAIN (Never delete)
+"Prefix Clutter ([EURL], --, <<, #)",YES (High),YES (High),YES,NO (Levenshtein ok),Low,HIGH (Corrupts prefix index / Soundex),Regex strip leading clutter r'^(?:\[[a-zA-Z]+\]|[^\w\s]+)',RETAIN (Never delete)
+Missing Address (~166k rows),YES (Critical),YES (High),YES,YES,Low,CRITICAL (Drops ~166k matches),Add missing_addr boolean flag; route to name-only comparator,RETAIN (Never delete)
+Indic Multilingual Scripts,YES (Critical),YES (Critical),YES,YES,Low,CRITICAL (0.00 string overlap),Phonetic transliteration into Latin ASCII,RETAIN (Never delete)
+Address Component Reordering,NO (Token blocking ok),NO (BM25 ok),YES,YES (Levenshtein fails),Low,HIGH (If using sequence match),Use Token Sort Ratio / Set Jaccard instead of string distance,RETAIN (Never delete)
+Domain / URL Name,YES (High),YES (High),YES,YES,Low,HIGH (Drops matches),Strip domain suffix (.com/.in) & compare space-stripped names,RETAIN (Never delete)

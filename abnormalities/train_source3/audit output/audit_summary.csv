@@ -1,0 +1,15 @@
+metric,value,percentage,description
+total_rows,5285603,100.00%,Total physical records processed in train_source3.tsv
+total_columns,4,100.00%,"Number of columns (entity_id, business_name, business_address, country)"
+file_size_mb,480.37,N/A,Size of file in Megabytes
+malformed_rows,0,0.0000%,Rows where tab count != 3
+missing_address,175916,3.33%,Completely empty address string
+embedded_null_address,130996,2.48%,Address containing literal 'null'/'undefined' string
+url_business_names,210926,3.99%,Business names converted to synthetic URLs
+prefix_junk_names,114211,2.16%,"Names with leading punctuation clutter (#, @, --, <<)"
+legal_prefix_transposed,86415,1.63%,Names with legal entity identifier shifted to prefix (LLC ...)
+indic_script_names,258985,4.90%,Names written in regional Indic scripts
+all_caps_names,156219,2.96%,Names formatted in ALL UPPERCASE
+all_lower_names,330222,6.25%,Names formatted in all lowercase
+exact_s1_s3_name_match,2272,4.54%,Ground truth pairs with 100% exact name concordance
+exact_s1_s3_addr_match,2236,4.47%,Ground truth pairs with 100% exact address concordance

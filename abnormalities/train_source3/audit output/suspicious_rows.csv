@@ -1,0 +1,101 @@
+entity_id,business_name,business_address,country,anomaly_score,triggered_flags
+S3-969954990,આલ્ફા ફાઉન્ડેશન પ્રાઇવેટ લિમિટેડ,"GJ, Ahmedabad, 209, NULL",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-987949855,Southern பவர்,,India,5,MISSING_ADDR; INDIC_SCRIPT_NAME
+S3-812130826,*** researchnexola.com,"9334 Ravenridge Rd, Parkvville, Maryland",US,5,URL_DOMAIN_NAME; PREFIX_JUNK
+S3-503202810,Galaxyexports.Com,"RJ, NULL, Jaipur, Shop No S 16 S 17, Jaipur",India,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-373829690,परफेक्ट हॉस्पिटैलिटी प्राइवेट लिमिटेड,"Uint No.221., NULL, Mumbai City, Mumbai, MH",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-856396239,cascadeholding.com,"251 Bellmore Rd, NULL, East Meadow, New York",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-664641045,... Jamesreynolds.Com,"14 Hzel St, Binghamton, New York",US,5,URL_DOMAIN_NAME; PREFIX_JUNK
+S3-941837513,इनोवेटिव हॉस्पिटैलिटी हार्डवेयर प्राइवेट लिमिटेड,"48 J C Apartment 2Nd Floorgandhi Bag Nagpur, Nagpur, null, MH",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-668977335,atlantebrunnernexus.com,"980 Wilson Way, null, Grapeview CITY, Washington",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-994548354,ইন্টারন্যাশনাল ইনফ্রা প্রাইভেট লিমিটেড,"Howrah, Paschim Putiary Jayshree Apartment Resident Forum Flat- 4D, Kolkata, #320 Banrejee Para Road (Chatterjee Bagan), পশ্চিমবঙ্গ, null",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-628501215,अरिहंत इंटरनेशनल प्राइवेट लिमिटेड,"Pune, NULL, Pune, Row Hose No.4, MH",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-245377233,श्याम सॉफ्टवेयर लिमिटेड,"140/1B- Plot No3/2 Shridhar Nagar Girna Pumping Road, Jalgaon, null, MH",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-472820311,पायोनियर इन्वेस्टमेंट,"No 308 Manjipur, Bareilly Region, <NULL>, UP",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-339734079,South Finance कंस्ट्रक्शंस प्राइवेट लिमिटेड,"L 1106 Adriana Downtown Palava City Phase Ii Sec 26 Kohni Kalyan Dombivali, null, Thane, MH",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-273152421,smartdefi.com,"##197 Chapel Hill Road, null, Montville, Connecticut",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-532781561,ಓಂ ಇಂಪೆಕ್ಸ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್,"P-5-0, NULL, Hal 3Rd Stage, KA",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-708851353,ভিশন কনস্ট্রাকশনস ইঞ্জিনিয়ারিং,"#65A Shakespeare Sarani, <NULL>, Kolkata, Howrah, WB",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-625714924,-- Ivorysdiner.Com,"Main St, Sanford, North Carolina",US,5,URL_DOMAIN_NAME; PREFIX_JUNK
+S3-303137571,Vision ઇન્વેસ્ટમેન્ટ પ્રા. લિ.,"Hn 301 A Â 204, Thaltej, <NULL>, GJ",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-420593200,allprimefood.com,"Building Number 05A, NULL, Survey No 10 And 61, Logos Mappedu Industrial And Logistics Park, Thandalam Arakonam Road, Kizhacheri Village, Tiruvallur, தமிழ்நாடு",India,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-395609911,साईं Logistics Private Limited,"Ug-#10, Lusa Tower Azadpur, North Delhi, null, DL",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-731204059,pranaviproductsprivate.com,"#62 C/o. Lal Br Singh, Kaserua Kala, Sahason, Prayagraj (Allahabad), Phulpur, <NULL>, UP",India,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-484373643,ಗೋಲ್ಡನ್ ಇನ್‌ಫೋಟೆಕ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್,"18/1, Bangalore South, NULL, ಕರ್ನಾಟಕ",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-789699437,बेस्ट वेंचर्स प्राइवेट लिमिटेड,"Mathura, 2-64/190, <NULL>, UP",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-497001020,सेवन प्रोडक्ट्स प्रा. लि.,"No 016 Block D7, NULL, Delhi, New Delhi, दिल्ली",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-53047439,"DENYS SMITH, ESQ. | www.denyssmit.com",,US,5,MISSING_ADDR; URL_DOMAIN_NAME
+S3-815530531,Youngbarraganpeace.Com,"Mary Teal Lane, <NULL>, Burlington, Kentucky",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-392296671,iaconstructions.com,"451 B-303, NULL, Mumbai, MH",India,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-701121566,>> supremeproducts.com #53178,"Rajpur Khurd, Mehrauli, Chhatarpur, New Delhi, No-##38, दिल्ली, South Delhi",India,5,URL_DOMAIN_NAME; PREFIX_JUNK
+S3-192687212,surgicalcustom.com,"2624-D Lockwood Dr, NULL, Winston-Salem, North Carolina",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-964882560,புளூ கன்சல்டன்சி எண்டர்பிரைசஸ் பிரைவேட் லிமிடெட்,"32/A, null, Tuticorin, Tuthukhodi, TN",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-405789452,Jones Crystal Offshore Downtown | www.jonescrys.com,"40 Meadowbrook Ln, Skiatook, Oklahoma, NULL",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-859647376,बेस्ट फाउंडेशन प्राइवेट लिमिटेड,"A-1501, null, Borivali West, Mumbai, MH",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-598533259,సిటీ రెడ్ ఎంటర్‌ప్రైజెస్ ప్రైవేట్ లిమిటెడ్,"H.no.8-3-222/f/30/10, Andhra Pradesh, Hyderabad, NULL",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-260140349,रेड जय इंफ्रास्ट्रक्चर प्राइवेट लिमिटेड,"5-83/85, null, Mumbai, महाराष्ट्र",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-387811472,... pediatricdentalphysicians.com,"#21220 23rd Avenue, Unit 109, Sierra Adobe, Arizona",US,5,URL_DOMAIN_NAME; PREFIX_JUNK
+S3-912895438,Sri Digipro Selfgl Selfgl | www.digiprose.com,"Plot No-44 Sector-44, null, Sector -45, Gurgaon, HR",India,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-313425185,dragercontinental.com,"Pennington Ave, NULL, Huntsville, Alabama",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-301923655,वन हॉस्पिटैलिटी इलेक्ट्रॉनिक्स प्राइवेट लिमिटेड,"324/52, <NULL>, Kanpur Nagar, Kanpur, UP",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-249002145,Cornerstone.Com (ID: 52435),,US,5,MISSING_ADDR; URL_DOMAIN_NAME
+S3-112250484,Dj Seva | www.djseva.com,,India,5,MISSING_ADDR; URL_DOMAIN_NAME
+S3-269671715,হোয়াইট ফুডস প্রাইভেট লিমিটেড,"Budbud Natun Pally, null, Burdman, WB",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-634808128,जय राम एक्सपोर्ट्स लिमिटेड,"C-b3/35-b Sewak Park, <NULL>, New Delhi, West Delhi, दिल्ली",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-355101858,हाई मैनेजमेंट प्राइवेट लिमिटेड,"#12 Deepak Mahal, Mumbai, NULL, MH",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-271369950,>> Lower Total  Ngl LLC | www.lowertota.com,"3137 Mckinnon Dr, Wilmington, North Carolina",US,5,URL_DOMAIN_NAME; PREFIX_JUNK
+S3-717826482,బెస్ట్ ప్రాజెక్ట్స్ ప్రైవేట్ లిమిటెడ్,"597P, <NULL>, Hyderabad, TG",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-558375893,boardtransportation.com,"Texas, NULL, 5212 Concho Creek Bend, Autin CITY",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-547483224,Mr creativecouchprivate.com,"C/407, Kashyap Green City Abhimanyu Nagar, Kothwa, null, BR",India,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-1057521,*** brawneroptimalmercury.com | www.brawneropt.com,"Utah, Unit 4, 1371 340, Logan City",US,5,URL_DOMAIN_NAME; PREFIX_JUNK
+S3-384540649,City Enterprises प्राइवेट लिमिटेड,"Kalyan, Vindhyawasini Colony B3/3/2, <NULL>, MH, Alwadi (E)",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-183280799,ईस्टर्न हॉस्पिटैलिटी प्राइवेट लिमिटेड,"Sanghavi Estate Nityanandnagar Off L B S Marg Ghatkopar West, Mumbai, <NULL>, MH",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-780098660,... ramabrothers.com,"Properiy No-4, Kh No-71, 72, 73 Gali No 1, Near Prakash Petrol Pump, Bada, Rpur, South Delhi, New Delhi, DL",India,5,URL_DOMAIN_NAME; PREFIX_JUNK
+S3-316805430,विजन कंसल्टेंट्स प्राइवेट लिमिटेड,"<NULL>, Haryana, Karnal, HR, H.no 30 Sewa Samiti Complixkunjpura Road Karnal",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-552656160,জয় হেলথকেয়ার প্রাইভেট লিমিটেড,"113 Netaji Subhash Road5th Floor, NULL, Greater Bombay, Calcutta, WB",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-259536181,गोल्डन मां इंटरनेशनल प्राइवेट लिमिटेड,"Shop No-12 Ad Marketshalimar Bagh, New Delhi, null, DL",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-604952054,>> horizontalentservices.com,"305 Belle Forest Court, Kingsport, Tennessee",US,5,URL_DOMAIN_NAME; PREFIX_JUNK
+S3-272695202,अल कंसल्टेंट्स प्रा. लि.,"Khasra No-2372, Garh Road, Near Manohar Regency, Hapur, <NULL>, UP",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-312254920,... familychurch.com,"1053 Main Street, Oklahoma, Ft Towson",US,5,URL_DOMAIN_NAME; PREFIX_JUNK
+S3-24766586,Grey & Sons Privlate Limited | www.greyson.com,,India,5,MISSING_ADDR; URL_DOMAIN_NAME
+S3-525405724,पायोनियर एग्रो Private Limited,"Curcuit House Ke Samne, NULL, Raghurajnagar, Satna, MP",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-351147665,"Stone, Travis and Young Inc | www.stonetra.com",,US,5,MISSING_ADDR; URL_DOMAIN_NAME
+S3-29646153,पायोनियर शिवम एनर्जी प्रा. लि.,"Tapkir Nagar Khadimashin Road Mos Haveli Pimpri Chinchwad(m.corp), महाराष्ट्र, Gat No.452/1/1, Pune, <NULL>",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-537629998,रियल राज वेंचर्स प्राइवेट लिमिटेड,"163-B F/f Western Avenue, NULL, South Delhi, New Delhi, DL",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-731280523,रियल इम्पेक्स प्राइवेट लिमिटेड,"Plot 3-26 B-1602, Vrindavan Tower, Krishna Garden, Chikuwadi, Mumbai, null, MH",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-885311028,गुजरात इम्पेक्स Private Limited,"H.no B3/955 B-55, Sector-6, Noida, null, UP",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-482289327,ಟೆಕ್ ಕನ್‌ಸ್ಟ್ರಕ್ಷನ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್,"Ward No.1, Guramaranahalli Extention, B M Road, Channarayapatna, <NULL>, KA",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-526432434,ಹರಿ ಟೆಕ್ನಾಲಜೀಸ್,"385, NULL, Mysore, KA",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-358887377,Sri dreamimpex.com,"Plot No.136, null, Trichy, Tiruchirappalli, தமிழ்நாடு",India,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-636043924,ప్రైమ్ లైఫ్ కన్సల్టెంట్స్ స్టోర్స్ Private Limited,"H.no 120 & 100, NULL, Hyderabad, Rangareddy, TG",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-230600656,>> keeferfairchild.com,"256 Skousen Street, PO Box 9792, Gilbert, Arizona",US,5,URL_DOMAIN_NAME; PREFIX_JUNK
+S3-612582045,hinojosadpc.com,"199 Walnut Hill Trl, NULL, Siler City, North Carolina",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-347591637,Gujarat ग्लोबल Private Limited,"124, null, Pitampura, New Delhi, DL",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-938924328,starwealthtechnologies.com,"74 Panaview Drive, null, Irondequoit, New York",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-501954504,óncologycare.com,"4801- 16th Avenue, <NULL>, Fargo, North Dakota",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-198996099,... mcfallsimoninternet.com,"Mangum, 28924. Cr 1440, Oklahoma",US,5,URL_DOMAIN_NAME; PREFIX_JUNK
+S3-91172729,hubbardsregionalent.com,"Cedar City, 361 Center Street, Utah, NULL",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-413650853,फर्स्ट मार्केटिंग प्राइवेट लिमिटेड,"Plot No El-21, Nagpur, null, MH",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-461846750,tyro.com,,India,5,MISSING_ADDR; URL_DOMAIN_NAME
+S3-313559734,pricepope.com,"1649 Rockaway Pkwy, NULL, Brooklyn, New York",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-758094579,Sunrise वेंचर्स प्राइवेट लिमिटेड,,India,5,MISSING_ADDR; INDIC_SCRIPT_NAME
+S3-553019898,స్వస్తిక్ ఫుడ్స్ ప్రైవేట్ లిమిటెడ్,"H.no 120, H.no.4-7-8/s/10, Saikrushi Nagar, Sangareddy, NULL, TG",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-760656232,बॉम्बे सॉल्यूशंस प्राइवेट लिमिटेड,"C/o. Sow Parvin Sultana Syed Ibrahim, Maqdum Nagar Wangi Road, Parbhani, <NULL>, MH",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-526775858,sandersbriacell.com,"825 Cantrell Cir, NULL, Gatlinburg, Tennessee",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-728648515,physicaltherapypiedmont.com,"13903 1/2 Marble Creek Court, null, Houston, Texas",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-248964518,... shivaagro.com,"A0301, Bhubaneswar, Khordha, ଓଡ଼ିଶା",India,5,URL_DOMAIN_NAME; PREFIX_JUNK
+S3-52857415,babjbock.com,"13002 1/2 Shawnee Dr, NULL, Manchaca, Texas",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-8989874,Doshi  Infraplus | www.doshiinf.com,"No 46, 17Th Cross, 12Th Main, Malleswaram Bangalore-55, <NULL>, KA",India,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-527100290,juniper.com,"8110 Leyden St, null, Elverta, California",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-381077585,ગુરુ મીડિયા પ્રાઇવેટ લિમિટેડ,"8, NULL, Vadodara, GJ",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-238315648,gdévelopers.com,"Hebbar Building 3-2024 B1, null, Kundapura, Udupi, KA",India,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-878430973,श्री फूड्स प्राइवेट लिमिटेड,"Pune, MH, ##1, Sanjeev Plaza Sno.8, H.no.2/2, Jambulwadi Road, null",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-742656174,ओम सर्विसेज प्राइवेट लिमिटेड,"Khata G-201 Plot 250, Lakhnibigha Near Gas Goda, Dinapur-cum-khagaul, null, BR",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-34926275,>> diagnosticsschmidt.com,"#24 Eastwood Rd, New York, Miller Place",US,5,URL_DOMAIN_NAME; PREFIX_JUNK
+S3-220452288,స్టార్ శివం ఫుడ్ ప్రైవేట్ లిమిటెడ్,"Door No 919 Old P No 70, New P No 75, Apple Avenue Colony, Injapur, Rangareddy, <NULL>, TG",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-922309888,Arihant సిస్టమ్స్,,India,5,MISSING_ADDR; INDIC_SCRIPT_NAME
+S3-354082260,ಸ್ಟಾರ್ ಸರ್ವಿಸಸ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್,"Block B-789 B-605, null, Bangalore, Bangalore South, KA",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-167786262,Covue.Com,"Kansas, <NULL>, Wichita, 7272 37st St",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-888174005,রাম কনস্ট্রাকশন লিমিটেড,"Postal Park, Kolkata, Howrah, #346 1, WB, NULL",India,5,EMBEDDED_NULL_ADDR; INDIC_SCRIPT_NAME
+S3-291857615,Pine Hill Community Church PC Center | www.pinehill.com,"262. Ridge Road, <NULL>, Cibo, New Mexico",US,5,EMBEDDED_NULL_ADDR; URL_DOMAIN_NAME
+S3-831993761,... Prime  Learning Global LLC | www.primelea.com,"123 Main Street, Ansonia, Ohio",US,5,URL_DOMAIN_NAME; PREFIX_JUNK

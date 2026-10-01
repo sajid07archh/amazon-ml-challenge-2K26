@@ -1,0 +1,4 @@
+field,records_compared,unchanged,changed,change_percentage,common_change_pattern,suspicion_level,notes
+country,50000,50000,0,0.00%,Zero changes across sources,Low,Country is stable anchor for hard blocking
+business_name,50000,2338,47662,95.32%,"Case shifts (24.2%), Prefix clutter (11.4%), Typos (25.1%), Legal mods (28.4%)",High,Massive ALL CAPS and prefix clutter applied
+business_address,50000,0,50000,100.00%,"Case ALL CAPS (18.8%), Inverted order (18.5%), Missing in S2 (3.3%)",Critical,Requires case normalization + set token overlap

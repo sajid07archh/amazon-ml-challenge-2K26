@@ -1,0 +1,16 @@
+metric,value,percentage,description
+total_rows,5034616,100.00%,Total physical records processed in train_source2.tsv
+total_columns,4,100.00%,"Number of columns (entity_id, business_name, business_address, country)"
+file_size_mb,466.63,N/A,"Size of file in Megabytes (489,301,488 bytes)"
+malformed_rows,0,0.0000%,Rows where tab count != 3 (100% delimiter consistency)
+missing_address,168967,3.36%,"Completely empty address string ("""")"
+embedded_null_address,131937,2.62%,Address containing literal 'null'/'undefined' string
+url_business_names,201271,4.00%,"Business names converted to synthetic URLs (.com, .org, www)"
+prefix_junk_names,108984,2.16%,"Names with leading clutter (-- Holloway, << Team, [EURL], #, @)"
+legal_prefix_transposed,85186,1.69%,Names with legal entity identifier shifted to prefix (LLC ...)
+indic_script_names,441391,8.77%,"Names written in regional Indic scripts (Devanagari, Tamil, etc.)"
+all_caps_names,951586,18.90%,Names formatted in ALL UPPERCASE (Massive S2 specific anomaly)
+all_lower_names,289625,5.75%,Names formatted in all lowercase
+all_caps_addresses,3191104,63.38%,Addresses formatted in ALL UPPERCASE (Major S2 defining signature)
+exact_s1_s2_name_match,2338,4.68%,Ground truth pairs with 100% exact name concordance
+exact_s1_s2_addr_match,0,0.00%,Ground truth pairs with 100% exact address concordance

@@ -1,0 +1,10 @@
+pattern,affected_records,percentage,affected_fields,examples,potential_purpose,blocking_impact
+Address ALL CAPS Shift,3191104,63.38%,business_address,"105 ELM ST, MORGANTON, NC vs 105 Elm St, Morganton, NC",Synthetic case perturbation,Critical for case-sensitive blocking; zero impact if case-folded
+Name ALL CAPS Shift,951586,18.90%,business_name,PAYNE ENTERPRISES vs Payne Enterprises,Synthetic case perturbation,High for case-sensitive tokenizers; zero impact if case-folded
+Multilingual Indic Transliteration,441391,8.77%,business_name,एसएस फूड प्राइवेट लिमिटेड vs Ss Food Private Limited,Language variation,Critical: 0.00 string similarity without transliteration
+Synthetic Domain Conversion,201271,4.00%,business_name,hollowaypeak.com vs Holloway Peak Inc,URL injection,High: defeats word-level tokenizers unless stripped
+Missing Address Introduction,168967,3.36%,business_address,""""" vs 85 Wayne Avenue, Ticonderoga, NY",Attribute omission,Critical: drops matches if address is mandatory for blocking
+Embedded 'null' String Artifact,131937,2.62%,business_address,"45ND TERRACE, null, KANSAS CITY vs 45th Terrace, Kansas City",Noise corruption,Medium: causes false token matches on 'null'
+Prefix Formatting Clutter,108984,2.16%,business_name,[EURL] QHC Culture / -- Holloway Peak Inc,Prefix noise injection,High: breaks prefix trie index and phonetic Soundex
+Legal Prefix Transposition,85186,1.69%,business_name,LLC Moncada Learning Center vs Moncada Learning Center LLC,Structural swap,High: inflates generic legal candidate buckets
+Address Component Permutation,"~930,000",~18.5%,business_address,"Missouri, 630 45th Terrace vs 630 45th Terrace, Kansas City, MO",Hierarchical permutation,High: sequential Levenshtein fails; requires Token Sort

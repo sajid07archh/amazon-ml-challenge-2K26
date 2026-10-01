@@ -1,0 +1,5 @@
+category,count,percentage,severity,blocking_impact
+NORMAL,3922291,77.91%,None,Standard token / inverted index blocking works directly
+RARE_BUT_VALID,463904,9.21%,Low,Minor length/case deviations; handled by case-folding
+SUSPICIOUS,628575,12.49%,High,"High prefix clutter, missing addresses, domains; causes false drops"
+POTENTIALLY_INVALID,19846,0.39%,Critical,Multiple stacked corruptions; requires multi-pass normalization

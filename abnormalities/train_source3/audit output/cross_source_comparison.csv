@@ -1,0 +1,4 @@
+field,records_compared,unchanged,changed,change_percentage,common_change_pattern,suspicion_level,notes
+country,50000,50000,0,0.00%,Virtually zero changes across sources,Low,Country is stable anchor for hard blocking
+business_name,50000,2272,47728,95.46%,"Typos (26.6%), Legal mods (31.8%), Domains (4.0%), Case (6.4%)",High,Heavy synthetic perturbation applied
+business_address,50000,2236,47764,95.53%,"Missing in S3 (4.5%), Component reordering (19.9%), Token typos",Critical,Extreme permutation: positional distance fails; set overlap required

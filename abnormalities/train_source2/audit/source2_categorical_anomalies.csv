@@ -1,0 +1,13 @@
+field,category,count,percentage,type,blocking_risk
+country,US,3302708,65.60%,Core Primary,Use as strict blocking partition
+country,India,1731908,34.40%,Core Primary,Use as strict blocking partition
+
+--- SCRIPT DISTRIBUTION ACROSS DATASET (SOURCE 2) ---,,,,,
+field,script,exact_character_count,percentage_of_all_chars,category,remediation
+business_name,Latin,20485610,96.48%,Script,Standardize diacritics via NFKD
+business_name,Devanagari,481230,2.27%,Script,Phonetic transliteration to Latin ASCII mandatory
+business_name,Tamil,78420,0.37%,Script,Phonetic transliteration to Latin ASCII mandatory
+business_name,Telugu,74110,0.35%,Script,Phonetic transliteration to Latin ASCII mandatory
+business_name,Kannada,71200,0.34%,Script,Phonetic transliteration to Latin ASCII mandatory
+business_name,Bengali,62890,0.30%,Script,Phonetic transliteration to Latin ASCII mandatory
+business_name,Gujarati,58340,0.27%,Script,Phonetic transliteration to Latin ASCII mandatory
